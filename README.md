@@ -7,14 +7,17 @@ A small library of Xiaohongshu-ready parenting image-text notes (covers + tip ca
 ## 目录结构
 
 ```
+RULES.md                 # 8 条站立规则（v2，后续笔记必遵）
 notes/
-  01-naifen-chongtiao/   # 第一篇：奶粉冲调避坑
-    note.md              # 可发布文案（标题 / 封面文案 / 正文 / 标签 / 配图清单）
+  01-naifen-chongtiao/   # 第一篇：0–6 月冲奶避坑
+    note.md              # 可发布文案
     preview.html         # 本地预览页
     images/
       cover.png
-      card-01.png … card-05.png
-topics.md                # 已规划话题列表
+      card-01.png … card-06.png  # 含标准流程清单
+      checklist.png              # 清单卡别名
+topics.md                # 选题池与状态
+generate_images.py       # Pillow 生成 3:4 粉彩配图
 ```
 
 ## 笔记组织方式
@@ -22,12 +25,13 @@ topics.md                # 已规划话题列表
 - 每篇一个子目录：`notes/序号-拼音短名/`
 - `note.md` 是发布底稿；`images/` 放竖版配图
 - `topics.md` 记录选题池与状态
+- 新篇请先读 `RULES.md`
 
-## 第一篇
+## 第一篇（v2）
 
-**新手爸妈别再乱冲奶了｜这 5 个坑我替你踩过**
+**0–6月冲奶5坑｜先水后粉别搞反**
 
-配图：封面 + 5 张避坑卡片（水温、先水后粉、专用勺、别过夜、外出准备）。
+封面主标题：冲奶避坑。配图：封面 + 5 张避坑卡（误区→正确做法→后果）+ 1 张冲奶标准流程清单。
 
 ## License
 
