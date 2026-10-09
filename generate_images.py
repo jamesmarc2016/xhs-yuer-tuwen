@@ -1,5 +1,8 @@
 #!/usr/bin/env python3
-"""Generate Xiaohongshu-style 3:4 cover + tip cards + checklist for 奶粉冲调避坑 (v2)."""
+"""LEGACY pastel full-set generator (v2 soft pastel).
+Production default is now generate_hybrid.py (Style A cover + Style B inner).
+Keep this file for reference only; do not overwrite hybrid images with it.
+"""
 from PIL import Image, ImageDraw, ImageFont
 import os
 

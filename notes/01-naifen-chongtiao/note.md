@@ -60,12 +60,14 @@
 
 ## 配图清单（发布顺序建议）
 
-1. `images/cover.png` — 封面「冲奶避坑」
-2. `images/card-01.png` — ① 水温凭感觉？
-3. `images/card-02.png` — ② 先粉后水？
-4. `images/card-03.png` — ③ 勺子估摸着？
-5. `images/card-04.png` — ④ 微波炉/矿泉水？
-6. `images/card-05.png` — ⑤ 剩奶留过夜？
-7. `images/card-06.png` — 冲奶标准流程清单
+视觉默认：**Hybrid** = 封面 Style A（干货大字报）+ 内页 Style B（手账拼贴）。生成脚本：`generate_hybrid.py`。
 
-本地预览：打开同目录 `preview.html`。
+1. `images/cover.png` — 封面「冲奶避坑」（Style A）
+2. `images/card-01.png` — ① 水温凭感觉？（Style B）
+3. `images/card-02.png` — ② 先粉后水？（Style B）
+4. `images/card-03.png` — ③ 勺子估摸着？（Style B）
+5. `images/card-04.png` — ④ 微波炉/矿泉水？（Style B）
+6. `images/card-05.png` — ⑤ 剩奶留过夜？（Style B）
+7. `images/card-06.png` / `checklist.png` — 冲奶标准流程清单（Style B）
+
+本地预览：打开同目录 `preview.html`。对照样张：`style-previews/style-A-cover-B-inner/`。

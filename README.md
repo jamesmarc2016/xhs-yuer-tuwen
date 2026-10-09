@@ -17,7 +17,10 @@ notes/
       card-01.png … card-06.png  # 含标准流程清单
       checklist.png              # 清单卡别名
 topics.md                # 选题池与状态
-generate_images.py       # Pillow 生成 3:4 粉彩配图
+generate_hybrid.py       # 默认：A封面 + B内页（生产配图）
+generate_images.py       # 旧版粉彩全套（保留对照）
+generate_style_previews.py  # A/B 风格对照预览
+style-previews/          # 风格样张（含 hybrid）
 ```
 
 ## 笔记组织方式
@@ -31,7 +34,7 @@ generate_images.py       # Pillow 生成 3:4 粉彩配图
 
 **0–6月冲奶5坑｜先水后粉别搞反**
 
-封面主标题：冲奶避坑。配图：封面 + 5 张避坑卡（误区→正确做法→后果）+ 1 张冲奶标准流程清单。
+封面主标题：冲奶避坑。配图 Hybrid：Style A 封面 + Style B 手账内页（5 张避坑卡 + 清单）。运行 `python3 generate_hybrid.py` 重生。
 
 ## License
 
