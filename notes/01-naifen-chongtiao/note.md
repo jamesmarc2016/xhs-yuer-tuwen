@@ -60,7 +60,7 @@
 
 ## 配图清单（发布顺序建议）
 
-视觉默认：**Hybrid** = 封面 Style A（干货大字报）+ 内页 Style B（手账拼贴）。生成脚本：`generate_hybrid.py`。
+视觉默认：**Hybrid** = 封面 Style A（干货大字报）+ 内页 Style B（螺旋本手账拼贴，对照 `style-previews/style-B-ref-match/`）。生成脚本：`generate_hybrid.py`。
 
 1. `images/cover.png` — 封面「冲奶避坑」（Style A）
 2. `images/card-01.png` — ① 水温凭感觉？（Style B）

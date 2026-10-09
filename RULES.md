@@ -38,7 +38,7 @@
 
 - 封面主标题 **≤8–10 字**；细节从第 2 张卡开始
 - 竖版 **3:4**（如 1080×1440）
-- 默认 Hybrid：封面 Style A（干货大字报）+ 内页 Style B（手账拼贴），见 `generate_hybrid.py`
+- 默认 Hybrid：封面 Style A（干货大字报）+ 内页 Style B（螺旋本蓝格手账拼贴，对照参考样张），见 `generate_hybrid.py`
 - 无品牌 Logo、无硬广
 
 ## 7. 结尾免责声明
